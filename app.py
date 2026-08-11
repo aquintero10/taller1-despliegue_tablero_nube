@@ -239,6 +239,9 @@ def update_output_div(date, hour, proy):
         return plot
 
 
+print("Server running on http://localhost:8050/")
+print("Hola mundo desde el dashboard de energía")
+
 # Run the server
 if __name__ == "__main__":
     app.run(debug=True)
